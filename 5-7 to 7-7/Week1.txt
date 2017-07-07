@@ -1,0 +1,51 @@
+﻿
+5/7 → 7/7
+
+1. Lab equipment : Giới thiệu về các switch của Cisco như Catalyst 2950, 3550, giới thiệu về cable để config
+2. Basic of networking : Giới thiệu về PC, switch, router. các thực thể cần dùng network như application, resources, storage, backup, VoIP. Các topo mạng bus,ring,star,
+3. OSI model : giới thiệu về các tầng của mô hình osi và tcp/ip.
+   OSI :  -Physical (bit)
+	   -Data link (frame)
+	   -Network ( packet)
+	   -Transoprt ( segment)
+	   -Session(Data)
+	   -Presentation (Data)
+	   -Application(Data)
+4.IP protocol: giới thiệu về Ipv4, DHCP 
+	IPv4 : 32 bit
+     -5 class  A,B,C,D,E
+           class A 1st bit là 00 bắt đầu từ 0.0.0.0 → 126.255.255.255
+	class B 1st bit là 01 bắt đầu từ 128.0.0.0 → 191.255.255.255
+	class C 1st bit là 110 băts đầu tuừ 192.0.0.0 → 223.255.255.255
+	127.0.0.0 → 127.255.255.255 là địa chỉ ip loopback
+	class D 1st bit là 1110 bắt đầu từ 224.0.0.0 → 239.255.255.255 dùng cho muticast
+	class E 1st bit là 1111 băts đầu từ 240.0.0.0 → 254.255.255.255
+      -private ip
+	class A : 10.0.0.0 → 10.255.255.255 subnet 255.0.0.0
+	class B : 172.16.0.0 → 172.31.255.255 subnet 255.240.0.0
+	class C : 192.168.0.0 → 192.168.255.255 subnet 255.255.255.0
+5. TCP and UDP: giới thiêuj về cấu trucs, phương thức hoạt động cuả các gói tcp và udp, quá trình bắt tay 3 bước trong TCP
+6.Ethernet : giới thiệu các chế độ làm việc half-duplex, full duplex, các chuẩn bấm dây A,B trên RJ45, dịa chỉa MAC
+7. Introduction to Cisco IOS: giới thiệu về câu lệnh cấu hình, khởi động switch,
+8. Hub, Bridge and switches : giới thiêuj về hub, switch và chế độ bridge
+9. Vlan, Trunk and VTP: giới thiệu về VLans,trunk and VTP.
+	Vlans: là mạng lan ảo kết nối các máy tính ở các vị trị khác nhau 
+	Trunk : kết nối logic vật lý giữa 2 switch để hỗ trợ các VLAN trên các switch nói chuyện với nhau. 1 đường trunk sẽ gộp nhiều liên kết ảo trên 1 liên kết vật lý.
+	VTP : Vlan trunking protocol( layer 2) đồng bộ hóa cấu hinhg trên các switch với nhau. Có 3 chế độ làm việc ( Server, client, Transparent) 
+10. Etherchannel : kết hợp các kết nối Ethernet thành 1 bundle để tăng băng thông. mỗi bundle có 2→ 8 kết nối, hoặc dùng để cân bằng tải giữa các đường trong bundle 
+11.  Spanning- tree (STP) : chống loop mạng gây nên trễ mạng, các nguyên nhân chính gây đến hiện tượng trễ mạng :
+	-Broadcast storm: nhiều frame chạy liên tục trong môi trường các switch đấu vòng
+	-Multiple Frame copies: nhiều frame gioogns nhau được nhận
+	-MAC table không ổn định 
+ STP sẽ chống loop bằng cách chọn ra root switch và root port sau đó bầu chọn alternate port và cho vào chế độ blocking 
+12. Binary,subneting and Summarization:cách chia,gộp mạng con
+13. IP routing : định tuyến, định tuyến tĩnh, định tuyến động, OSPF, EIGRP,
+14.FHRP:  Tạo một gateway ảo đóng vai trò là gateway cho các PC trong hệ thống.
+15.Distance vector routing protocol :  hop count, hđ dựa trên thuật toán Bellman Ford, tự động trao đổi thông tin bảng định tuyến. 
+16.OSPF: giao thức định tuyến theo liên kết trạng thái dựa trên các chuẩn mở, không giới hạn số lượng hop count trong mạng
+17. EIGRP :  Là giao thức nâng cao của Distance vector, hop count tối đa là 255, hỗ trợ load-balancing.
+18.ACL ( access control list) : triển khai nhuững luật cho phép đồng ý hoặc không đồng ys nhuững kết nối cụ thể giữa các thiêts bị định tuyến. bảo mật cho thiết bị layer 3
+19. NAT and PAT  : chuyển đổi địa chỉ ip, PAT chuyển đổi địa chỉ IP từ nhiều sang một.
+   
+
+
