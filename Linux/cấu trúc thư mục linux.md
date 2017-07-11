@@ -1,6 +1,6 @@
-#Linux phân chia các thư mục từ thư mục gốc /root
+# Linux phân chia các thư mục từ thư mục gốc /root
 Gồm các thư mục 
-#/root :
+\ -/root :
 tất cả các file thư mục bắt đầu từ root, chỉ có root user mới có quyền viết trogn thư mục này
 #/bin:
   chứa các file thực thi nhị phân
