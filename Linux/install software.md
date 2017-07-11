@@ -1,5 +1,5 @@
 ## Install software
-###Red Hat
+### Red Hat
 #### `rpm -i` <packet.rpm>
 + `-e` : unistall packet 
 + `-U` : install new packet or upgrade
@@ -28,8 +28,8 @@
      sudo vi /etc/apt/sources.list
      sudo apt-get update
      sudo apt-get install [packetname]
-  ```
-+ hoặc
+  ```
++
 
 ```
  sudo add-apt-repository deb http://any.com
