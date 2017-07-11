@@ -5,4 +5,4 @@
  + Kiểm tra
    ` env | grep 'VCC'`
  + Gỡ biến môi trường
-   ` unset VCC 
+   ` unset VCC` 
