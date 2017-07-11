@@ -5,7 +5,7 @@
 + `-U` : install new packet or upgrade
 + `-V` : verifies a packet
 + `-h` : hiển thị hash 
-#### `yum` install <packet name>
+#### `yum` install < packet name >
 + `update/upgrade`
 + `remove`
 + `check-update`
@@ -29,7 +29,7 @@
      sudo apt-get update
      sudo apt-get install [packetname]
   ```
-+
++ hay
 
 ```
  sudo add-apt-repository deb http://any.com
