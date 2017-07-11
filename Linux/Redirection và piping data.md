@@ -1,6 +1,6 @@
 # Redirecting và piping
  + Để điều hướng dữ liêu vào hoặc ra, dùng các ký tự được quy định sẵn
- #####```>```  dữ liêu xuất ra vào file tạo mới, nếu đã có file thì nó sẽ ghi đè
+ ##### ```>```  dữ liêu xuất ra vào file tạo mới, nếu đã có file thì nó sẽ ghi đè
 ### vd: 
  ```
    cat $PATH > fileB.txt
