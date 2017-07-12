@@ -1,2 +1,2 @@
-update learn form 7/7 to 11/7
-## updating...
+## Tổng hợp kiến thức linux đã đọc
+## update at 12.7
