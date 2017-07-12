@@ -30,10 +30,12 @@
   $apt-get install mdadm
   $yum install mdadm
  ```
+ 
 + mdadm có 7 chức năng . nhưng 3 chức năng chính là `create` - tao 1 thiết bị raid mới ; `assemble` - tập hợp các thiết bị để tạo raid ;  và `monitor` - theo dõi thiết bị raid .
 + Tạo ổ đĩa mềm RAID , ý là phần mềm, ko cần thiết bị RAID, dùng các phân vùng tham gia vào mảng đĩa thay vì sd toàn bộ ổ đĩa.
+ 
  
  ```
   $mdadm --create /dev/md0 <chế độ raid> <option> < danh sách các thiet bi tham gia>
  ```
- +  
+
