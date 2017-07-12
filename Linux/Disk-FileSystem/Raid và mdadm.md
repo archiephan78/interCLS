@@ -22,7 +22,9 @@
  + cần tối thiểu 4 ổ cứng  
  + file sẽ được split và lưu trong 3 ổ và 1 ổ để backup. Bản back up có thể ở bất kỳ trên disk nào trong cụm raid. 
 <img src="blob:http://imgur.com/8087a271-5d3e-4abd-bb5c-d299587b0642">
+
 ## Quản lý chuẩn để tạo RAID với mdadm 
+
 
 + install :
   
