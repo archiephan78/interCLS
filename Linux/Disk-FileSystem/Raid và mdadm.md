@@ -18,6 +18,7 @@
 ### RAID 01:
  + 4 ổ 
   <img src="http://i.imgur.com/RpS0muW.jpg" >
+  
 ### RAID 5:
  + cần tối thiểu 4 ổ cứng  
  + file sẽ được split và lưu trong 3 ổ và 1 ổ để backup. Bản back up có thể ở bất kỳ trên disk nào trong cụm raid. 
