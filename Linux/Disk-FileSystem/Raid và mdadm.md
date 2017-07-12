@@ -13,14 +13,15 @@
  + cần tối thiếu 4 ổ.
  + dữ liệu lưu đồng thời vào 4 ổ .2 ổ dạng raid 0, 2 ổ dạng raid 1
  + chi phí cao
- <img src="http://imgur.com/ZNhGyqL" >
+ <img src="http://i.imgur.com/ZNhGyqL.png" >
 
 ### RAID 01:
  + 4 ổ 
+  <img src="http://i.imgur.com/RpS0muW.jpg" >
 ### RAID 5:
  + cần tối thiểu 4 ổ cứng  
  + file sẽ được split và lưu trong 3 ổ và 1 ổ để backup. Bản back up có thể ở bất kỳ trên disk nào trong cụm raid. 
-
+<img src="blob:http://imgur.com/8087a271-5d3e-4abd-bb5c-d299587b0642">
 ##Quản lý chuẩn để tạo RAID với mdadm 
 
 + install :
