@@ -18,3 +18,9 @@
 ### Lệnh `du` [Option]..[File]
 + ktra dung lương trên đĩa đc dùng bởi  các tập tin và thư mục
 + Option : `-a` ;`-c`; `-h`; `-s`..
+### Mkfs
++ dung để tạo file system trên 1 storage(HDD) đã format 
++ vd : 
+ ```
+  mkfs /dev/fd0
+ ``` 
