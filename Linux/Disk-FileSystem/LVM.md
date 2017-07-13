@@ -4,6 +4,7 @@
 + LVM là kỹ thuật quản lý việc thay đổi kích thước lưu trữ của ổ cứng. Ưu điểm là không để hệ thống bị gián đoạn hoạt động, ko làm học dịch vụ,..
 ### Các thành phần trong LVM
 
+<img src="http://i.imgur.com/RxUmap1.png" >
 + Hard drives : thiệt bị lưu trữ dl,  trong linux là sda
 + Partition : phân vùng
 + Physical Volumes : là cách gọi khác của partition trong kỹ thuật LVM. Nhiều physical volumes tạo thành volume group. mount point của boot ko đc nằm trong group.
