@@ -8,7 +8,7 @@
  `>>` dữ liệu sẽ xuất ra file tạo sẵn và không ghi đè, nếu ko có file đấy nó sẽ create
 ### vd :
 ```
-   cat abcdef >> fileB.txt
+   cat abcdef.txt >> fileB.txt
 ```
   `2>` tạo file mới mang thông báo lỗi( seem like log file), nếu file đấy có sẵn nó sẽ ghi đè
 ### vd : 
